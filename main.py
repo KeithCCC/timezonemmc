@@ -25,7 +25,7 @@ tzdict = {'Tokyo':'Asia/Tokyo',
             'IST':'Asia/Kolkata',
             'Sydney':'Australia/Sydney'} 
 class CityForm(Form):
-    city1 = SelectField(u'Left', 
+    city1 = SelectField(u'#1', 
         choices=[
             ('Tokyo', 'Tokyo'),
             ('Singapore', 'Singapore'),
@@ -37,9 +37,9 @@ class CityForm(Form):
             ('San Jose', 'San Jose'),
             ('St.Pete', 'St.Pete')
             ])
-    city2 = SelectField(u'Center',
+    city2 = SelectField(u'#2',
         choices=[
-            ('Tokyo', 'Tokyo'),
+            ('Tokyo', '#2'),
             ('Singapore', 'Singapore'),
             ('IST', 'IST'),
             ('Sydney','Sydney'),
@@ -49,7 +49,7 @@ class CityForm(Form):
             ('San Jose', 'San Jose'),
             ('St.Pete', 'St.Pete')
             ])          
-    city3 = SelectField(u'Right', 
+    city3 = SelectField(u'#3', 
         choices=[
             ('Tokyo', 'Tokyo'),
             ('Singapore', 'Singapore'),
@@ -61,7 +61,7 @@ class CityForm(Form):
             ('San Jose', 'San Jose'),
             ('St.Pete', 'St.Pete')
             ])
-    city4 = SelectField(u'Right', 
+    city4 = SelectField(u'#4', 
         choices=[
             ('Tokyo', 'Tokyo'),
             ('Singapore', 'Singapore'),
